@@ -1,28 +1,5 @@
 import tkinter as tk
 
-#Funciones
-
-#Funcion suma toma dos numeros y retorna la suma entre ambos
-def suma(a,b):
-  return a + b
-
-#Funcion resta toma dos numeros y retorna la resta entre ambos
-def resta(a,b):
-  return a - b
-
-#Funcion toma dos numeros y retorna la multiplicacion entre ambos
-def multiplicacion(a,b):
-  return a * b
-
-#Funcion toma dos numeros y retorna la division entre ambos, con excepcion en caso que el segundo numero sea cero
-def division(a,b):
-  if b == 0:
-    return "Error: No se puede dividir por cero"
-  
-  else:
-    return a / b
-  
-
 #Instancia grafica
 root = tk.Tk()
 
